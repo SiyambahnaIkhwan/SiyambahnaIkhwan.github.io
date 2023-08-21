@@ -1,0 +1,436 @@
+/* Navbar */
+
+.navbar-brand {
+  /* font-family: Balsamiq Sans; */
+  font-size: 16px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+  color: white;
+}
+
+.nav-link {
+  margin-right: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+#navbar {
+  background-image: url(asset/nav1.png);
+  background-size: cover;
+}
+
+.carousel-item {
+  margin-top: -1px;
+}
+
+.panel-body h3 {
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(0, 5, 77);
+  margin-bottom: 30px;
+}
+
+.panel-body p {
+  font-size: 18px;
+  font-weight: 500;
+  color: grey;
+}
+
+.panel-body i {
+  font-size: 18px;
+  font-weight: 500;
+  color: grey;
+}
+
+.panel-body h6 {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.panel-body .btn {
+  margin-left: 10px;
+}
+
+.card-body-background {
+  background-image: url(asset/profile.png);
+  background-size: cover;
+  /* padding-top: 20px;
+    padding-right: 20px; */
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: 20px;
+  padding-bottom: 4px;
+  padding-top: 10px;
+  border-bottom: 3px solid red;
+}
+
+.card-body h2 {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+  top: 6px;
+  right: 6px;
+  position: relative;
+
+  z-index: 1;
+}
+
+.card {
+  background-color: rgb(212, 212, 212);
+  margin-top: -33px;
+  position: relative;
+
+  z-index: 1;
+}
+
+.radio {
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: middle;
+  color: rgb(0, 7, 99);
+  /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 1); */
+  position: relative;
+  padding-left: 30px;
+}
+
+.radio input[type="radio"] {
+  display: none;
+}
+
+.radio span {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 3px solid red;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 7px;
+}
+
+.radio span::after {
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: red;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  transition: 300ms ease-in-out 0s;
+}
+
+.radio input[type="radio"]:checked ~ span::after {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.panel-body {
+  position: relative;
+  z-index: 1;
+}
+
+.carousel ol {
+  background-image: url(asset/indicator.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+  margin-bottom: -2%;
+  margin-left: -10%;
+}
+
+.carousel-indicators > li {
+  margin: 1px;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(0, 10, 148);
+}
+
+.card-body-background {
+  position: relative;
+  z-index: 1;
+}
+
+.page-footer {
+  background-image: url(asset/footer.png);
+  height: 40px;
+}
+
+.copyright {
+  text-align: right;
+  padding-top: 6px;
+  padding-right: 20px;
+}
+
+#footer {
+  margin-top: -35px;
+  border-top: 7px solid red;
+  background-color: rgb(0, 0, 78);
+  text-align: center;
+}
+
+#brandfooter {
+  margin-left: 90px;
+}
+
+#logos {
+  margin-top: 9px;
+  margin-left: 100px;
+}
+
+#logoig {
+  margin-left: -13px;
+}
+
+#logolink {
+  margin-left: -13px;
+}
+
+#copyright {
+  color: white;
+  font-size: 14px;
+}
+
+/* Dekstop CSS */
+@media (min-width: 992px) {
+  .nav-link:hover {
+    border-bottom: 3px solid rgb(255, 220, 24);
+    margin-bottom: -3px;
+  }
+
+  .nav-link {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+  }
+
+  #navbar {
+    background-image: url(asset/nav1.png);
+  }
+  .navbar-brand {
+    /* font-family: Balsamiq Sans; */
+    font-size: 16px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+  }
+
+  .jumbotron h2 {
+    margin-top: -40px;
+  }
+
+  .radio {
+    margin-bottom: 25px;
+  }
+
+  .card {
+    background-color: rgb(212, 212, 212);
+    margin-top: -45px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .card-body-background {
+    background-image: url(asset/profile.png);
+    background-size: cover;
+    padding-top: 45px;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 20px;
+    padding-bottom: 4px;
+  }
+
+  .carousel-indicators > li {
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: (0, 10, 148);
+    margin-left: 0%;
+  }
+
+  .carousel ol {
+    background-image: url(asset/indicator.png);
+    background-repeat: no-repeat;
+    background-size: 210px;
+    background-position: center;
+    margin-bottom: 0%;
+    margin-left: -40%;
+  }
+
+  #background {
+    display: block;
+    position: absolute;
+    align-items: center;
+    opacity: 0.3;
+    z-index: 1;
+    width: 1366px;
+    height: 562px;
+    margin-top: -63px;
+    margin-left: -422px;
+    transition: 300ms ease-in-out 0s;
+  }
+
+  .panel-body h3 {
+    position: relative;
+    z-index: 2;
+  }
+
+  .panel-body p {
+    position: relative;
+    z-index: 2;
+  }
+
+  .panel-body i {
+    position: relative;
+    z-index: 2;
+  }
+
+  .card {
+    position: relative;
+    z-index: 2;
+  }
+
+  .panel-body img {
+    width: 300px;
+    position: relative;
+    z-index: 1;
+  }
+
+  #brandfooter {
+    margin-left: -200px;
+  }
+
+  #logos {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .carousel ol {
+    background-image: url(asset/indicator.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+    margin-bottom: -2%;
+    margin-left: -30%;
+  }
+
+  .carousel-indicators > li {
+    margin: 1px;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 10, 148);
+  }
+
+  .panel-body {
+    position: relative;
+    z-index: 1;
+  }
+
+  #background {
+    display: none;
+    position: absolute;
+    align-items: center;
+    opacity: 0.3;
+    z-index: 1;
+    width: fit-content;
+    height: fit-content;
+    margin-top: -63px;
+    margin-left: -422px;
+    transition: 300ms ease-in-out 0s;
+  }
+
+  .panel-body img {
+    display: none;
+  }
+
+  .panel-body h3 {
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .panel-body p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .panel-body h6 {
+    font-size: 12px;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .card {
+    height: 110%;
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .card label {
+    font-size: 14px;
+  }
+
+  .radio span {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 3px solid red;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 2px;
+  }
+
+  .radio span::after {
+    content: "";
+    height: 6px;
+    width: 6px;
+    background: red;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+    transition: 300ms ease-in-out 0s;
+  }
+}
+
+@media (min-width: 1920px) {
+  .carousel-indicators > li {
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: (0, 10, 148);
+    margin-left: 0%;
+  }
+
+  .carousel ol {
+    background-image: url(asset/indicator.png);
+    background-repeat: no-repeat;
+    background-size: 210px;
+    background-position: center;
+    margin-bottom: 0%;
+    margin-left: -40%;
+  }
+
+  #background {
+    display: block;
+    position: absolute;
+    align-items: center;
+    opacity: 1;
+    z-index: 1;
+    width: 1900px;
+    height: 560px;
+    margin-top: -60px;
+    margin-left: -680px;
+    transition: 300ms ease-in-out 0s;
+  }
+
+  #brandfooter {
+    margin-left: -500px;
+  }
+}

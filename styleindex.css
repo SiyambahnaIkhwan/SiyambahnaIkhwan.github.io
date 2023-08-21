@@ -1,0 +1,791 @@
+/* Navbar */
+
+.navbar-brand {
+  /* font-family: Balsamiq Sans; */
+  font-size: 16px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+  color: white;
+}
+
+.nav-link {
+  margin-right: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+#navbar {
+  background-image: url(asset/nav1.png);
+  background-size: cover;
+}
+
+.carousel-item {
+  margin-top: -1px;
+}
+
+.index .card {
+  height: 100%;
+  background-image: url(asset/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: 130px;
+  background-position: right bottom;
+  background-color: rgb(206, 206, 206);
+  text-align: center;
+  margin-top: -20px;
+  position: relative;
+  z-index: 1;
+  width: 300px;
+  height: 200px;
+  padding-bottom: 280px;
+  margin-left: 20px;
+}
+
+#card2 p {
+  padding-top: 23px;
+}
+
+#card1 p {
+  padding-top: 23px;
+}
+
+#card4 p {
+  padding-top: 23px;
+}
+
+#card5 p {
+  padding-top: 23px;
+}
+
+#card6 p {
+  padding-top: 23px;
+}
+
+.card-img-top {
+  height: 70px;
+}
+
+.index h2 {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.jumbotron::after {
+  content: "";
+  display: block;
+  width: 104%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(196, 196, 196),
+    rgba(206, 206, 206, 0)
+  );
+  position: absolute;
+  bottom: 0;
+  margin-left: -32px;
+}
+
+/* .carousel ol {
+  background-image: url(asset/indicator.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+  margin-bottom: -2%;
+  margin-left: -30%;
+}
+
+.carousel-indicators > li {
+  margin: 1px;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(0, 10, 148);
+} */
+
+.card h5 {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.card p {
+  font-size: 12px;
+}
+
+.page-footer {
+  background-image: url(asset/footer.png);
+  height: 40px;
+}
+
+.copyright {
+  text-align: right;
+  padding-top: 6px;
+  padding-right: 20px;
+}
+
+#footer {
+  margin-top: -35px;
+  border-top: 7px solid red;
+  background-color: rgb(0, 0, 78);
+  text-align: center;
+}
+
+#logos {
+  margin-top: 9px;
+  margin-left: 100px;
+}
+
+#logoig {
+  margin-left: -13px;
+}
+
+#logolink {
+  margin-left: -13px;
+}
+
+#logowa {
+  margin-left: 0px;
+}
+
+#copyright {
+  color: white;
+  font-size: 14px;
+}
+
+.history img {
+  width: 400px;
+  height: 300px;
+}
+
+.contact img {
+  width: 400px;
+  height: 300px;
+}
+
+.gcontact img {
+  width: cover;
+}
+
+.contact {
+  font-family: sans-serif;
+
+  border-top: 5px solid rgb(0, 0, 0);
+  /* border-bottom: 3px solid black; */
+}
+
+.contenthistory {
+  border-left: 3px solid black;
+}
+
+.contenthistory div::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #000;
+
+  position: absolute;
+  top: 70px;
+  left: 7px;
+}
+
+.texthistory ul {
+  list-style: none;
+}
+
+.texthistory h3 {
+  font-size: 22px;
+}
+
+.texthistory h2 {
+  font-size: 26px;
+}
+
+.texthistory p {
+  font-size: 12px;
+}
+
+.texthistory ul::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background: black;
+  z-index: -1;
+  top: 0;
+  margin-top: 55px;
+  left: 20px;
+}
+
+.texthistory ul li h3:before {
+  content: "";
+  position: absolute;
+  background: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  left: 0;
+  margin-left: 12px;
+  margin-top: 5px;
+}
+
+.history img {
+  margin-top: -30px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 175px;
+}
+
+.contact h1 {
+  font-size: large;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.contact button {
+  margin-right: 130px;
+}
+
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    /* font-family: Balsamiq Sans; */
+    font-size: 16px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+    color: white;
+  }
+
+  .nav-link {
+    margin-right: 30px;
+  }
+
+  #navbar {
+    background-image: url(asset/nav1.png);
+    background-size: cover;
+  }
+
+  .carousel-item {
+    margin-top: -1px;
+  }
+
+  .index .card {
+    height: 100%;
+    background-image: url(asset/jumbotron.png);
+    background-repeat: no-repeat;
+    background-size: 130px;
+    background-position: right bottom;
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    margin-top: -20px;
+    position: relative;
+    z-index: 1;
+    width: 300px;
+    height: 200px;
+    padding-bottom: 280px;
+    margin-left: 20px;
+  }
+
+  #card2 p {
+    padding-top: 23px;
+  }
+
+  #card1 p {
+    padding-top: 23px;
+  }
+
+  #card4 p {
+    padding-top: 23px;
+  }
+
+  #card5 p {
+    padding-top: 23px;
+  }
+
+  #card6 p {
+    padding-top: 23px;
+  }
+
+  .card-img-top {
+    height: 70px;
+  }
+
+  .index h2 {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .jumbotron {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+  }
+
+  .jumbotron::after {
+    content: "";
+    display: block;
+    width: 104%;
+    height: 100%;
+    background-image: linear-gradient(
+      to bottom,
+      rgb(196, 196, 196),
+      rgba(206, 206, 206, 0)
+    );
+    position: absolute;
+    bottom: 0;
+    margin-left: -32px;
+  }
+
+  .carousel ol {
+    background-image: url(asset/indicator.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+    margin-bottom: -2%;
+    margin-left: -30%;
+  }
+
+  .carousel-indicators > li {
+    margin: 1px;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 10, 148);
+  }
+
+  .card h5 {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+
+  .page-footer {
+    background-image: url(asset/footer.png);
+    height: 40px;
+  }
+
+  .copyright {
+    text-align: right;
+    padding-top: 6px;
+    padding-right: 20px;
+  }
+
+  #footer {
+    margin-top: -35px;
+    border-top: 7px solid red;
+    background-color: rgb(0, 0, 78);
+    text-align: center;
+  }
+
+  #brandfooter {
+    margin-left: 90px;
+  }
+
+  #logos {
+    margin-top: 9px;
+    margin-left: 100px;
+  }
+
+  #logoig {
+    margin-left: -13px;
+  }
+
+  #logolink {
+    margin-left: -13px;
+  }
+
+  #logowa {
+    margin-left: 0px;
+  }
+
+  #copyright {
+    color: white;
+    font-size: 14px;
+  }
+
+  .history img {
+    width: 400px;
+    height: 300px;
+  }
+
+  .contact img {
+    width: 400px;
+    height: 300px;
+  }
+
+  .gcontact img {
+    width: cover;
+  }
+
+  .contact {
+    font-family: sans-serif;
+
+    border-top: 5px solid rgb(0, 0, 0);
+    /* border-bottom: 3px solid black; */
+  }
+
+  .contenthistory {
+    border-left: 3px solid black;
+  }
+
+  .contenthistory div::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+
+    position: absolute;
+    top: 70px;
+    left: 7px;
+  }
+
+  .texthistory ul {
+    list-style: none;
+  }
+
+  .texthistory h3 {
+    font-size: 22px;
+  }
+
+  .texthistory h2 {
+    font-size: 26px;
+  }
+
+  .texthistory p {
+    font-size: 12px;
+  }
+
+  .texthistory ul::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 58%;
+    background: black;
+    z-index: -1;
+    top: 0;
+    margin-top: 55px;
+    left: 20px;
+  }
+
+  .texthistory ul li h3:before {
+    content: "";
+    position: absolute;
+    background: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    left: 0;
+    margin-left: 12px;
+    margin-top: 5px;
+  }
+
+  .history img {
+    margin-top: -30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 175px;
+  }
+
+  .contact h1 {
+    font-size: large;
+    text-align: center;
+  }
+
+  .contact p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .contact button {
+    margin-right: 130px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .nav-link:hover {
+    border-bottom: 3px solid rgb(255, 220, 24);
+    margin-bottom: -3px;
+  }
+
+  .nav-link {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+  }
+
+  .jumbotron::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      to bottom,
+      rgb(196, 196, 196),
+      rgba(206, 206, 206, 0)
+    );
+    position: absolute;
+    bottom: 0;
+    margin-left: -32px;
+  }
+
+  .carousel-indicators > li {
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 10, 148);
+    margin: 1px;
+  }
+
+  .carousel ol {
+    background-image: url(asset/indicator.png);
+    background-repeat: no-repeat;
+    background-size: 210px;
+    background-position: center;
+    margin-bottom: 0%;
+    margin-left: -40%;
+  }
+
+  .texthistory h3 {
+    font-size: 32px;
+  }
+
+  .texthistory h2 {
+    font-size: 40px;
+  }
+
+  .texthistory p {
+    font-size: 18px;
+  }
+
+  .texthistory ul::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 57%;
+    background: black;
+    z-index: -1;
+    top: 0;
+    margin-top: 60px;
+    left: 20px;
+  }
+
+  .texthistory ul li h3:before {
+    content: "";
+    position: absolute;
+    background: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    left: 0;
+    margin-left: 12px;
+    margin-top: 5px;
+  }
+
+  .history img {
+    margin-top: 30px;
+    width: 500px;
+    height: 400px;
+  }
+
+  .index .card {
+    height: 110%;
+    background-image: url(asset/jumbotron.png);
+    background-repeat: no-repeat;
+    background-size: 130px;
+    background-position: right bottom;
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    margin-top: -20px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+
+    padding-bottom: 30px;
+    margin-left: 0px;
+  }
+
+  .index h2 {
+    font-size: 40px;
+    padding-bottom: 30px;
+  }
+  .contact h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .contact p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .contact button {
+    margin-right: 130px;
+  }
+
+  #brandfooter {
+    margin-right: 250px;
+  }
+
+  .card h5 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .card p {
+    font-size: 16px;
+  }
+
+  .card-img-top {
+    height: 85px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-link:hover {
+    border-bottom: 3px solid rgb(255, 220, 24);
+    margin-bottom: -3px;
+  }
+
+  .nav-link {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+  }
+
+  .jumbotron::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      to bottom,
+      rgb(196, 196, 196),
+      rgba(206, 206, 206, 0)
+    );
+    position: absolute;
+    bottom: 0;
+    margin-left: -32px;
+  }
+
+  .carousel-indicators > li {
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 10, 148);
+    margin-left: 0%;
+  }
+
+  .carousel ol {
+    background-image: url(asset/indicator.png);
+    background-repeat: no-repeat;
+    background-size: 210px;
+    background-position: center;
+    margin-bottom: 0%;
+    margin-left: -40%;
+  }
+
+  .texthistory h3 {
+    font-size: 32px;
+  }
+
+  .texthistory h2 {
+    font-size: 40px;
+  }
+
+  .texthistory p {
+    font-size: 18px;
+  }
+
+  .texthistory ul::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 57%;
+    background: black;
+    z-index: -1;
+    top: 0;
+    margin-top: 12%;
+    left: 20px;
+  }
+
+  .texthistory ul li h3:before {
+    content: "";
+    position: absolute;
+    background: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    left: 0;
+    margin-left: 12px;
+    margin-top: 5px;
+  }
+
+  .history img {
+    margin-top: 30px;
+    width: 450px;
+    height: 400px;
+  }
+
+  .index .card {
+    height: 100%;
+    background-image: url(asset/jumbotron.png);
+    background-repeat: no-repeat;
+    background-size: 130px;
+    background-position: right bottom;
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    margin-top: -20px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+
+    padding-bottom: 50px;
+    margin-left: 0px;
+  }
+
+  .index h2 {
+    font-size: 40px;
+    padding-bottom: 30px;
+  }
+  .contact h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .contact p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #brandfooter {
+    margin-left: -200px;
+  }
+
+  .card h5 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .card p {
+    font-size: 16px;
+  }
+
+  .card-img-top {
+    height: 80px;
+  }
+
+  #logos {
+    margin-left: 10px;
+  }
+}

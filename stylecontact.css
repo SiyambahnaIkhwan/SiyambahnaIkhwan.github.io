@@ -1,0 +1,249 @@
+/* Navbar */
+
+.navbar-brand {
+  /* font-family: Balsamiq Sans; */
+  font-size: 16px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+  color: white;
+}
+
+#fotobsu {
+  border-top: 15px solid red;
+  margin-top: -40px;
+}
+
+.nav-link {
+  margin-right: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+#navbar {
+  background-image: url(asset/nav1.png);
+  background-size: cover;
+}
+
+.carousel-item {
+  margin-top: -1px;
+}
+
+#jumbogb {
+  background-image: url(asset/jumbotron.png);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 300px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+
+.jumbotron::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  opacity: 0.9;
+  margin-left: -32px;
+  margin-top: -470px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(223, 223, 223),
+    rgb(255, 255, 255)
+  );
+  z-index: 0;
+}
+
+#jumbobsu {
+  background-image: url(asset/backgroundbsu.png);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 300px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+#map {
+  width: 400px;
+  height: 200px;
+}
+
+#logo {
+  margin-bottom: -30px;
+}
+
+.col-sm-6 h2 {
+  font-size: 20px;
+  color: rgb(0, 0, 85);
+}
+
+.page-footer {
+  background-image: url(asset/footer.png);
+  height: 40px;
+}
+
+.copyright {
+  text-align: right;
+  padding-top: 6px;
+  padding-right: 20px;
+}
+
+#footer {
+  margin-top: -35px;
+  border-top: 7px solid red;
+  background-color: rgb(0, 0, 78);
+  text-align: center;
+}
+
+#brandfooter {
+  margin-left: 90px;
+}
+
+#logos {
+  margin-top: 9px;
+  margin-left: 100px;
+}
+
+#logoig {
+  margin-left: -13px;
+}
+
+#logolink {
+  margin-left: -13px;
+}
+
+#copyright {
+  color: white;
+  font-size: 14px;
+}
+
+/* Dekstop CSS */
+@media (min-width: 992px) {
+  .nav-link:hover {
+    border-bottom: 3px solid rgb(255, 220, 24);
+    margin-bottom: -3px;
+  }
+
+  .nav-link {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+  }
+
+  #navbar {
+    background-image: url(asset/nav1.png);
+  }
+  .navbar-brand {
+    /* font-family: Balsamiq Sans; */
+    font-size: 16px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+  }
+
+  .jumbotron h2 {
+    margin-top: -40px;
+  }
+
+  #map {
+    width: 500px;
+    height: 400px;
+  }
+
+  #logo {
+    margin-bottom: 0px;
+  }
+
+  .col-sm-6 h2 {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 85);
+  }
+
+  .col-sm-6 p {
+    font-weight: 500;
+    color: grey;
+  }
+
+  .col-sm-6 a {
+    font-weight: 500;
+    color: grey;
+  }
+
+  .col-sm-6 #item {
+    margin-right: 30px;
+    width: 25px;
+  }
+
+  #brandfooter {
+    margin-left: -200px;
+  }
+
+  #logos {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #map {
+    width: fit-content;
+  }
+
+  #jumbogb {
+    background-image: url(asset/jumbotron.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 200px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .jumbotron::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    opacity: 0.9;
+    margin-left: -16px;
+    margin-top: -638px;
+    background-image: linear-gradient(
+      to bottom,
+      rgb(223, 223, 223),
+      rgb(255, 255, 255)
+    );
+    z-index: 0;
+  }
+
+  #fotobsu {
+    width: 100%;
+    position: relative;
+    z-index: 3;
+  }
+
+  #jumbobsu {
+    background-image: url(asset/jumbotron.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 200px;
+    position: relative;
+    z-index: 2;
+  }
+
+  #logo {
+    width: fit-content;
+  }
+}
+
+@media (min-width: 1920px) {
+  #brandfooter {
+    margin-left: -500px;
+  }
+}

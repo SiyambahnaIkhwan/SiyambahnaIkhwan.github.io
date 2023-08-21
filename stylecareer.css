@@ -1,0 +1,124 @@
+/* Navbar */
+
+.navbar-brand {
+  /* font-family: Balsamiq Sans; */
+  font-size: 16px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+  color: white;
+}
+
+.nav-link {
+  margin-right: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+#navbar {
+  background-image: url(asset/nav1.png);
+  background-size: cover;
+}
+
+.page-footer {
+  background-image: url(asset/footer.png);
+  height: 40px;
+}
+
+.copyright {
+  text-align: right;
+  padding-top: 6px;
+  padding-right: 20px;
+}
+
+#footer {
+  margin-top: -35px;
+  border-top: 7px solid red;
+  background-color: rgb(0, 0, 78);
+  text-align: center;
+}
+
+#logos {
+  margin-top: 9px;
+  margin-left: 100px;
+}
+
+#logoig {
+  margin-left: -13px;
+}
+
+#copyright {
+  color: white;
+  font-size: 14px;
+}
+
+/* Dekstop CSS */
+@media (min-width: 992px) {
+  .nav-link:hover {
+    border-bottom: 3px solid rgb(255, 220, 24);
+    margin-bottom: -3px;
+  }
+
+  .nav-link {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+  }
+
+  #navbar {
+    background-image: url(asset/nav1.png);
+  }
+  .navbar-brand {
+    /* font-family: Balsamiq Sans; */
+    font-size: 16px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+  }
+
+  #footer {
+    height: 55px;
+    border-top: 10px solid red;
+    background-color: rgb(0, 0, 78);
+  }
+
+  .navbar-inverse .nav-link {
+    padding-top: 20px;
+    color: white;
+  }
+
+  #footer {
+    margin-top: -35px;
+    border-top: 7px solid red;
+    background-color: rgb(0, 0, 78);
+    border-bottom: 7px solid rgb(0, 0, 78);
+  }
+
+  #brandfooter {
+    margin-top: 7px;
+    margin-bottom: -50px;
+    margin-left: -130px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carousel-indicators {
+    background-image: url(asset/indicator.png);
+    background-repeat: no-repeat;
+    margin-bottom: -1px;
+    padding-right: 840px;
+    margin-top: 20px;
+    background-size: 220px;
+  }
+  #brandfooter {
+    margin-left: -240px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .carousel-indicators {
+    background-image: url(asset/indicator.png);
+    background-repeat: no-repeat;
+    margin-bottom: -1px;
+    padding-right: 1110px;
+    margin-top: 20px;
+    background-size: 220px;
+  }
+  #brandfooter {
+    margin-left: -500px;
+  }
+}

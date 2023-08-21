@@ -1,0 +1,175 @@
+/* Navbar */
+
+.navbar-brand {
+  /* font-family: Balsamiq Sans; */
+  font-size: 16px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+  color: white;
+}
+
+.nav-link {
+  margin-right: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+#navbar {
+  background-image: url(asset/nav1.png);
+  background-size: cover;
+}
+
+.page-footer {
+  background-image: url(asset/footer.png);
+  height: 40px;
+}
+
+.copyright {
+  text-align: right;
+  padding-top: 6px;
+  padding-right: 20px;
+}
+
+#footer {
+  margin-top: -35px;
+  border-top: 7px solid red;
+  background-color: rgb(0, 0, 78);
+  text-align: center;
+}
+
+#brandfooter {
+  margin-left: 90px;
+}
+
+#logos {
+  margin-top: 9px;
+  margin-left: 100px;
+}
+
+#logoig {
+  margin-left: -13px;
+}
+
+#logolink {
+  margin-left: -13px;
+}
+
+#copyright {
+  color: white;
+  font-size: 14px;
+}
+
+.brand {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: -1%;
+  width: 101%;
+  background-image: url(brand/bgbrand.png);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.brand .nav {
+  padding-bottom: 5%;
+}
+
+.brand h5 {
+  color: white;
+}
+
+.brand button {
+  width: 150%;
+  font-weight: 600;
+}
+
+.brand img {
+  width: 30%;
+  box-shadow: 5px 7px 9px rgb(0, 0, 0);
+}
+
+#fhome {
+  text-decoration: none;
+  color: white;
+}
+
+/* Dekstop CSS */
+@media (min-width: 992px) {
+  .nav-link:hover {
+    border-bottom: 3px solid rgb(255, 220, 24);
+    margin-bottom: -3px;
+  }
+
+  .nav-link {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+  }
+
+  #navbar {
+    background-image: url(asset/nav1.png);
+  }
+  .navbar-brand {
+    /* font-family: Balsamiq Sans; */
+    font-size: 16px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+  }
+
+  .brand {
+    background-position: 1% 1%;
+  }
+
+  #brandfooter {
+    margin-left: -200px;
+  }
+  .brandmiddle {
+    border-left: solid white 1px;
+    border-right: solid white 1px;
+  }
+
+  #logos {
+    margin-left: 10px;
+  }
+
+  .brand button {
+    width: 90px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .img16 {
+    height: 243px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .brand button {
+    width: 150px;
+    margin: 5px;
+  }
+  .brand {
+    margin-top: -1%;
+    background-position: 1% 1%;
+  }
+
+  .img16 {
+    height: 200px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .brand {
+    background-position: 1% 1%;
+  }
+
+  #brandfooter {
+    margin-left: -500px;
+  }
+
+  .brand button {
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .img16 {
+    height: 345px;
+  }
+}
