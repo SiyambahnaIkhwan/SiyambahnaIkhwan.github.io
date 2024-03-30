@@ -134,6 +134,10 @@
     margin-right: 25px;
   }
 
+  .img12 {
+    height: 243px;
+  }
+
   .img16 {
     height: 243px;
   }
@@ -149,8 +153,12 @@
     background-position: 1% 1%;
   }
 
+  .img12 {
+    height: 220px;
+  }
+
   .img16 {
-    height: 200px;
+    height: 220px;
   }
 }
 
@@ -167,6 +175,10 @@
     width: 100px;
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .img12 {
+    height: 345px;
   }
 
   .img16 {
